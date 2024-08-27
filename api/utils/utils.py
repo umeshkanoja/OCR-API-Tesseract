@@ -1,6 +1,8 @@
 import shutil
 import os
 
+from fastapi import UploadFile
+
 def _save_file_to_server(
     uploaded_file: UploadFile,
     path: str,
