@@ -13,10 +13,7 @@ The API also has a home endpoint `/` which returns a message indicating the endp
 
 ### Install Dependent packages
 
-1. `py -m pip install fastapi`
-2. `py -m pip install pytesseract`
-1. `py -m pip install python-multipart`
-1. `py -m pip install uvicorn`
+1. `py -m pip install -r requirements.txt`
 
 ### Run server
 
